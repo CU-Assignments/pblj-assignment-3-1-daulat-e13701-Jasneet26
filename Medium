@@ -8,9 +8,9 @@ import javax.servlet.annotation.WebServlet;
 public class EmployeeServlet extends HttpServlet {
 
     // Database connection details
-    private final String JDBC_URL = "jdbc:mysql://localhost:3306/your_database";
-    private final String JDBC_USER = "your_username";
-    private final String JDBC_PASS = "your_password";
+    private final String JDBC_URL = "jdbc:mysql://localhost:3306/jass";
+    private final String JDBC_USER = "jasnee";
+    private final String JDBC_PASS = "JASNEET";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
